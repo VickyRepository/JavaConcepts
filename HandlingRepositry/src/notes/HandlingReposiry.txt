@@ -1,0 +1,9 @@
+16-Jun-2019
+
+--> Git Repositry:
+
+    Unstage Stage -> what are all the file that need to be saved we need to move to git.
+    Commit.
+    
+    Remote-> Push.
+    

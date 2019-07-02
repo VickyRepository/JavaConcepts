@@ -1,0 +1,49 @@
+Mar-23-2019
+
+Two component available in java to store more than one value under a single variable.
+-->  Array       -- Static data structure
+-->  Collections -- Dynamic data structure
+
+
+-->Map
+   Map is one of the interface.
+   Map is a component of collections.
+   Map is a parent class for Hash Map, Linked Hash Map, Tree Map, Hash Table.
+   In Map the data will be store on the basis of key and key value.
+   We can store only one value under one key.
+   If two different value is assigned to one key value then it will override the latest value.
+   
+ -->Key & key set  Value & value set
+    Key is store a value in map.
+    Value is a data corresponding to the key.
+    Collection of key is called key set.
+    Collection of value is called value set.
+    
+-->What is entry & entry set
+   Key and key value is called entry (Key and key value together make an entry in the memory).
+   All the key and key value is called entry set.
+   
+-->Set 
+   In map we can't use iterator directly.
+   To call a set of data we can use set to iterator the value.
+ 
+-->Methods
+    List   -- Random order.
+    Linked -- Insertion order.
+    Tree   -- Ascending order / descending order. 
+-->Hash
+   Hash class is print the data in random order.
+   
+-->Hash table
+   Hash table will not accept null values whereas other child class of map will accept null values.
+   By default it will print the data in the insertion order.
+   
+-->Hints
+   TC_ID and data.
+   
+ -->Difference between hash table and map
+    Hash table is synchronized.
+    Hash table will not accept null values whereas other child class of map will accept null values.
+    Hash table consume more time to execute whereas other three take less time to execute.
+    
+      

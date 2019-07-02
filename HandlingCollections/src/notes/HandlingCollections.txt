@@ -1,0 +1,51 @@
+Mar-17-2019
+
+--> Collections
+     Collection is an inbuilt interface.
+     It is used to store group of values under single variable.
+     Collection is a dynamic data structure.
+
+--> ArrayList
+     For identification it will store the value with index(i.e. index will start form 0).
+     We need to declare the parent data type in the <> block while declaring array list(e.g. ArrayList<Integer>).
+     To get the length of the initialized value we need to use a method size(e.g. variable.size());
+     Get method is used to retrieve the data.
+     All the index will visible for the JVM so the data can be retreive within a second.
+     Array list follows the resize able architecture. 
+     
+-->LinkedList
+    Front will be as same as Array list.
+    The storing process will be differ from an array list in the back end.
+    Zeroth index only visible for the JVM.
+    Linked list follows doubly linked architecture.
+    
+    
+    Both will accept duplicate values.
+         
+-->Iterator
+    We can only use this within collection components.
+    We no need to mention the starting value and end value it loop the while block until it has a next value.
+    Iterator(interface) = b.iterator();//right hand side iterator is the method of collection component
+    b is a object of ArrayList<>.
+    
+-->Hint
+    If your frequent operation is related to data retrival then array list is best fit and linked list is worst fit.
+    If your frequent operation is related to data addition/modification then array list is worst fit and linked list is best fit.
+
+-->Difference between List and Set
+   List will accept duplicate value.
+   Set will not accept duplicate value.
+   
+-->Hash set
+    Hash set will not accept the duplicate value.
+    We can't use get in set.
+    It will not provide the output in insertion order it will display the data in random order.
+    
+ -->Linked Hash set
+     Linked hash set will not accept the duplicate value.
+     It will provide the output in insertion order with distinct value.
+     
+ -->Tree set
+      Tree set will not accept the duplicate value.
+      It will provide the output in ascending order with distinct value.
+      If we want the data in a descending order we need to pass Collections.reverseorder() in constructor of Tree set class.
